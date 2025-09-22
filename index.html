@@ -1,72 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sweet Delights Bakery</title>
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
    <link rel="stylesheet" href="./styel.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
+        <img class="logo"
+            src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/08/attachment_63221746-e1502903488854.jpg?auto=format&q=60&fit=max&w=930"
+            alt="Sweet Delights Bakery" width="100px" height="100px">
         <h1>Sweet Delights Bakery</h1>
         <p>Freshly baked goodness every day</p>
     </header>
-    
+
     <nav>
+        <img class="logo1"
+            src="https://t4.ftcdn.net/jpg/03/31/10/17/240_F_331101745_iJ3F7GUwZQKIeFCUCUtFZ51EWRAD0gjZ.jpg"
+            alt="nav logo" width="100px" height="100px ">
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#products">Products</a></li>
-            <li><a href="#pricing">pricing</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#contact">contact</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-    </nav> 
+    </nav>
 
     <div class="container">
         <section id="home" class="hero">
             <h1>Welcome to Sweet Delights Bakery</h1>
-            <p>We create delicious, handcrafted baked goods using only the finest ingredients. From artisan breads to custom celebration cakes, we have something for every occasion.</p>
+            <p>We create delicious, handcrafted baked goods using only the finest ingredients. From artisan breads to
+                custom celebration cakes, we have something for every occasion.</p>
             <a href="#products" class="btn">Explore Our Products <span class="bounce">↓</span></a>
         </section>
-        
+
         <section id="products">
             <h2 class="section-title">Our Products</h2>
             <div class="products">
                 <div class="product-card">
-                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1089&q=80" alt="Chocolate Cake" class="product-img">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1089&q=80"
+                        alt="Chocolate Cake" class="product-img">
                     <div class="product-info">
                         <h3>Decadent Chocolate Cakes</h3>
                         <p>Rich, moist chocolate cakes with various fillings and frostings.</p>
                     </div>
                 </div>
-                
+
                 <div class="product-card">
-                    <img src="https://cdn.pixabay.com/photo/2019/05/06/14/24/bread-4183225_640.jpg" alt="Artisan Bread" class="product-img">
+                    <img src="https://cdn.pixabay.com/photo/2019/05/06/14/24/bread-4183225_640.jpg" alt="Artisan Bread"
+                        class="product-img">
                     <div class="product-info">
                         <h3>Artisan Breads</h3>
                         <p>Freshly baked bread using traditional methods and natural ingredients.</p>
                     </div>
                 </div>
-                
+
                 <div class="product-card">
-                    <img src="https://cdn.pixabay.com/photo/2021/11/15/16/03/fluted-6798565_640.jpg" alt="Pastries" class="product-img">
+                    <img src="https://cdn.pixabay.com/photo/2021/11/15/16/03/fluted-6798565_640.jpg" alt="Pastries"
+                        class="product-img">
                     <div class="product-info">
                         <h3>French Pastries</h3>
                         <p>Delicate and buttery pastries that melt in your mouth.</p>
                     </div>
                 </div>
-                
+
                 <div class="product-card">
-                    <img src="https://images.unsplash.com/photo-1611293388250-580b08c4a145?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1138&q=80" alt="Custom Cakes" class="product-img">
+                    <img src="https://images.unsplash.com/photo-1611293388250-580b08c4a145?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1138&q=80"
+                        alt="Custom Cakes" class="product-img">
                     <div class="product-info">
                         <h3>Custom Celebration Cakes</h3>
                         <p>Beautiful custom cakes for birthdays, weddings, and special events.</p>
                     </div>
                 </div>
-                
+
                 <div class="product-card">
-                    <img src="https://cdn.pixabay.com/photo/2016/01/28/07/16/biscuit-1165854_640.jpg" alt="Cookies" class="product-img">
+                    <img src="https://cdn.pixabay.com/photo/2016/01/28/07/16/biscuit-1165854_640.jpg" alt="Cookies"
+                        class="product-img">
                     <div class="product-info">
                         <h3>Gourmet Cookies</h3>
                         <p>Chewy, crispy, and delicious cookies in a variety of flavors.</p>
@@ -74,7 +94,7 @@
                 </div>
             </div>
         </section>
-        
+
         <section id="pricing" class="pricing">
             <h2 class="section-title">Our Pricing</h2>
             <table>
@@ -87,47 +107,51 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Cakes</td>
+                        <td class="one">Cakes</td>
                         <td>Custom designed cakes for all occasions</td>
                         <td>Rs.1500.00 - Rs.2000.00</td>
                     </tr>
                     <tr>
-                        <td>Cookies</td>
+                        <td class="one">Cookies</td>
                         <td>Gourmet cookies (per dozen)</td>
                         <td>Rs.120.00 - Rs.180.00</td>
                     </tr>
                     <tr>
-                        <td>Bread</td>
+                        <td class="one">Bread</td>
                         <td>Artisan bread (per loaf)</td>
                         <td>Rs.60.00 - Rs.120.00</td>
                     </tr>
                     <tr>
-                        <td>Pastries</td>
+                        <td class="one">Pastries</td>
                         <td>French style pastries</td>
                         <td>Rs.30.00 - Rs.80.00 ( each )</td>
                     </tr>
                     <tr>
-                        <td>Cupcakes</td>
+                        <td class="one">Cupcakes</td>
                         <td>Delicious cupcakes (per dozen)</td>
                         <td>Rs.180.00 - Rs.240.00</td>
                     </tr>
                 </tbody>
             </table>
         </section>
-        
+
         <section id="about">
             <h2 class="section-title">About Us</h2>
             <div class="about">
                 <div>
-                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1174&q=80" alt="Bakery Interior" class="about-img">
+                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1174&q=80"
+                        alt="Bakery Interior" class="about-img">
                 </div>
                 <div>
                     <h3>Our Story</h3>
-                    <p>Sweet Delights Bakery was founded in 2010 with a passion for creating delicious baked goods that bring joy to our customers. We use traditional baking methods combined with high-quality ingredients to create products that stand out.</p>
-                    <p>Our team of skilled bakers and pastry chefs are dedicated to their craft and continuously innovate to bring new and exciting flavors to our menu.</p>
+                    <p>Sweet Delights Bakery was founded in 2010 with a passion for creating delicious baked goods that
+                        bring joy to our customers. We use traditional baking methods combined with high-quality
+                        ingredients to create products that stand out.</p>
+                    <p>Our team of skilled bakers and pastry chefs are dedicated to their craft and continuously
+                        innovate to bring new and exciting flavors to our menu.</p>
                 </div>
             </div>
-            
+
             <div class="services">
                 <h3 class="section-title">Our Services</h3>
                 <ul>
@@ -139,32 +163,31 @@
                 </ul>
             </div>
         </section>
-        
+
         <section id="contact" class="contact">
             <h2 class="section-title">Contact Us</h2>
             <p>We'd love to hear from you! Visit our bakery or get in touch:</p>
-            <p>📍 636/H,Mlawatha,Malwana.</p>
+            <p>📍 636/H,Malawatha,Malwana.</p>
             <p>📞 +94775650625</p>
             <p>✉️ info@sweetdelights.com</p>
-            
+
             <div class="newsletter">
                 <input type="email" id="emailInput" placeholder="Enter your email for updates">
                 <button onclick="subscribe()">Subscribe</button>
             </div>
         </section>
     </div>
-    
+
     <footer>
         <div class="social-links">
             <a href="#"><i class="fab fa-facebook"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-pinterest"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
             <a href="#"><i class="fab fa-tiktok"></i></a>
         </div>
         <p>&copy; 2023 Sweet Delights Bakery. All rights reserved.</p>
     </footer>
-    
+
     <script>
         // Simple JavaScript function for newsletter subscription
         function subscribe() {
@@ -176,12 +199,13 @@
                 alert('Please enter a valid email address.');
             }
         }
-        
+
         // Additional interactive feature: Update year in footer automatically
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             const year = new Date().getFullYear();
             document.querySelector('footer p').textContent = `© ${year} Sweet Delights Bakery. All rights reserved.`;
         });
     </script>
 </body>
+
 </html>
